@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Veer Teja Boys Hostel & PG</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  width: 100%;
+  background: #c0392b;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1590490360182-c33d57733427');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+.hero h1 { font-size: 40px; }
+.hero p { margin: 10px; }
+
+.btn {
+  background: #f39c12;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* ROOMS */
+.rooms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover { transform: scale(1.05); }
+
+/* FACILITIES */
+.facilities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+.facilities div {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap: 10px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* CONTACT */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+/* FOOTER */
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#rooms">Rooms</a>
+<a href="#facilities">Facilities</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h1>श्री वीर तेजा बॉयज हॉस्टल & P.G.</h1>
+<p>सुरक्षित, शांत और सुविधायुक्त आवास</p>
+<a class="btn" href="https://wa.me/916367242569?text=Hello I want to book a room">Book on WhatsApp</a>
+<a class="btn" href="tel:6367242569">Call Now</a>
+</div>
+
+<section id="rooms">
+<h2>Rooms</h2>
+<div class="rooms">
+<div class="card"><h3>Single Room</h3><p>Contact for price</p></div>
+<div class="card"><h3>Double Room</h3><p>Contact for price</p></div>
+<div class="card"><h3>PG Stay</h3><p>Contact for price</p></div>
+</div>
+</section>
+
+<section id="facilities">
+<h2>Facilities</h2>
+<div class="facilities">
+<div>Nearby Institutions</div>
+<div>Peaceful Environment</div>
+<div>Pure Veg Food</div>
+<div>RO Water</div>
+<div>CCTV Security</div>
+<div>AC / Cooler</div>
+<div>Free WiFi</div>
+<div>Tiffin Service</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+
+</div>
+<p>👉 Replace images with your own photos anytime</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>📞 6367242569</p>
+
+<iframe src="https://maps.google.com/maps?q=mds%20university%20ajmer&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+<br><br>
+
+<a class="btn" href="https://www.instagram.com/veertejaeductiongroupajmer">Instagram 1</a>
+<a class="btn" href="https://www.instagram.com/suresh_mahiya_8181">Instagram 2</a>
+</section>
+
+<footer>
+<p>Shree Veer Teja Boys Hostel & PG</p>
+<p>Managed by Suresh Choudhary (DEGANA)</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/916367242569">💬</a>
+
+</body>
+</html>
